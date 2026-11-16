@@ -2,3 +2,6 @@ README.md
 wrangler.jsonc
 .git
 .assetsignore
+.github
+scripts
+.htmlvalidate.json
