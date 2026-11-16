@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-labelledby="t">
+  <title id="t">An older couple walking together, holding hands, in a green park at sunrise</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6f4ea"/>
+      <stop offset="1" stop-color="#f6fbf3"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="10" y="10" width="460" height="400" rx="32"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+
+  <!-- backdrop -->
+  <rect x="10" y="10" width="460" height="400" fill="url(#sky)"/>
+  <circle cx="350" cy="120" r="46" fill="#f7d8a8"/>
+  <circle cx="350" cy="120" r="64" fill="#f7d8a8" opacity=".35"/>
+
+  <!-- hills -->
+  <path d="M10 300 Q120 230 240 280 T470 260 V410 H10 Z" fill="#b9dcc0"/>
+  <path d="M10 330 Q150 280 280 320 T470 310 V410 H10 Z" fill="#8fc79c"/>
+  <path d="M40 410 Q240 350 440 410 Z" fill="#6fb27f"/>
+
+  <!-- tree -->
+  <rect x="86" y="200" width="12" height="110" rx="5" fill="#7a5a3f"/>
+  <circle cx="92" cy="180" r="44" fill="#4f9a63"/>
+  <circle cx="64" cy="200" r="28" fill="#5fae73"/>
+  <circle cx="122" cy="198" r="30" fill="#5fae73"/>
+
+  <!-- path -->
+  <path d="M200 410 Q250 340 300 330 Q330 326 360 330" stroke="#e9f3e3" stroke-width="18" fill="none" stroke-linecap="round" opacity=".8"/>
+
+  <!-- woman -->
+  <g>
+    <!-- legs -->
+    <rect x="206" y="318" width="9" height="40" rx="4" fill="#5b4636"/>
+    <rect x="222" y="318" width="9" height="40" rx="4" fill="#5b4636"/>
+    <ellipse cx="210" cy="360" rx="9" ry="4" fill="#3d2f25"/>
+    <ellipse cx="228" cy="360" rx="9" ry="4" fill="#3d2f25"/>
+    <!-- saree / kurta -->
+    <path d="M196 240 Q218 226 240 240 L248 330 Q218 340 188 330 Z" fill="#2f7d4f"/>
+    <path d="M205 238 Q230 250 246 318 L238 322 Q226 262 200 244 Z" fill="#e8a33d"/>
+    <!-- arm reaching to man -->
+    <path d="M238 252 Q256 270 268 282" stroke="#a9744f" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- other arm -->
+    <path d="M198 252 Q190 276 196 296" stroke="#a9744f" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- neck & head -->
+    <rect x="212" y="222" width="12" height="16" rx="5" fill="#a9744f"/>
+    <circle cx="218" cy="206" r="20" fill="#a9744f"/>
+    <!-- grey hair with bun -->
+    <path d="M198 204 Q200 182 220 184 Q238 186 238 204 Q232 192 218 192 Q204 192 198 204 Z" fill="#d9d9d4"/>
+    <circle cx="200" cy="196" r="9" fill="#d9d9d4"/>
+    <!-- bindi & smile -->
+    <circle cx="222" cy="200" r="2" fill="#c0392b"/>
+    <path d="M220 214 Q226 218 231 213" stroke="#5a3a26" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="227" cy="205" r="1.6" fill="#3d2a1e"/>
+  </g>
+
+  <!-- man -->
+  <g>
+    <!-- legs -->
+    <rect x="276" y="318" width="10" height="42" rx="4" fill="#e9eee6"/>
+    <rect x="294" y="318" width="10" height="42" rx="4" fill="#e9eee6"/>
+    <ellipse cx="281" cy="362" rx="10" ry="4" fill="#3d2f25"/>
+    <ellipse cx="301" cy="362" rx="10" ry="4" fill="#3d2f25"/>
+    <!-- kurta -->
+    <path d="M266 236 Q290 222 314 236 L320 326 Q290 334 260 326 Z" fill="#f4f1e8"/>
+    <path d="M290 232 V300" stroke="#cfc9b8" stroke-width="2"/>
+    <circle cx="290" cy="250" r="2" fill="#cfc9b8"/>
+    <circle cx="290" cy="264" r="2" fill="#cfc9b8"/>
+    <!-- arm holding woman's hand -->
+    <path d="M270 250 Q266 270 268 282" stroke="#8a5d3d" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="268" cy="284" r="6" fill="#8a5d3d"/>
+    <!-- arm with walking stick -->
+    <path d="M312 250 Q326 270 330 284" stroke="#8a5d3d" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <line x1="332" y1="282" x2="340" y2="362" stroke="#6b4a32" stroke-width="5" stroke-linecap="round"/>
+    <path d="M326 282 Q332 274 338 282" stroke="#6b4a32" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- neck & head -->
+    <rect x="284" y="218" width="12" height="16" rx="5" fill="#8a5d3d"/>
+    <circle cx="290" cy="200" r="21" fill="#8a5d3d"/>
+    <!-- white hair & moustache -->
+    <path d="M270 198 Q272 176 292 178 Q310 180 311 198 Q304 188 290 188 Q276 188 270 198 Z" fill="#f2f2ee"/>
+    <path d="M283 210 Q290 206 299 210 Q291 214 283 210 Z" fill="#f2f2ee"/>
+    <!-- glasses -->
+    <circle cx="285" cy="199" r="5" fill="none" stroke="#2b2a28" stroke-width="1.6"/>
+    <circle cx="299" cy="199" r="5" fill="none" stroke="#2b2a28" stroke-width="1.6"/>
+    <line x1="290" y1="199" x2="294" y2="199" stroke="#2b2a28" stroke-width="1.6"/>
+    <path d="M285 216 Q291 220 297 216" stroke="#4a2f1f" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- flowers -->
+  <g fill="#f3c969">
+    <circle cx="150" cy="350" r="5"/><circle cx="170" cy="366" r="4"/><circle cx="390" cy="356" r="5"/><circle cx="410" cy="342" r="4"/>
+  </g>
+  <g fill="#ffffff" opacity=".9">
+    <circle cx="132" cy="372" r="4"/><circle cx="372" cy="374" r="4"/>
+  </g>
+  </g>
+</svg>

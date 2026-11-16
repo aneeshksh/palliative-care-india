@@ -1,12 +1,13 @@
 :root {
-  --bg: #fbf8f3;
-  --bg-alt: #f2ece2;
-  --ink: #2b2a28;
-  --muted: #6b665e;
-  --accent: #2f6f62;
-  --accent-soft: #e2efeb;
-  --warm: #c9783f;
-  --line: #e4dccf;
+  --bg: #f6fbf6;
+  --bg-alt: #e8f4ea;
+  --ink: #1f2d24;
+  --muted: #56675b;
+  --accent: #2e7d4f;
+  --accent-dark: #1f5e3a;
+  --accent-soft: #dcefe1;
+  --warm: #4f9a63;
+  --line: #d3e6d7;
   --radius: 14px;
   --max: 1040px;
 }
@@ -41,7 +42,7 @@ a { color: var(--accent); }
 /* Header */
 .site-header {
   position: sticky; top: 0; z-index: 10;
-  background: rgba(251, 248, 243, .94);
+  background: rgba(246, 251, 246, .94);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
 }
@@ -63,11 +64,21 @@ nav a:hover { color: var(--accent); }
   padding: 88px 0 72px;
   background:
     radial-gradient(circle at 85% 20%, var(--accent-soft), transparent 55%),
-    radial-gradient(circle at 10% 90%, #f6e3d3, transparent 50%);
+    radial-gradient(circle at 10% 90%, #eef7e6, transparent 50%);
 }
 .eyebrow {
   text-transform: uppercase; letter-spacing: .12em;
   font-size: .8rem; color: var(--warm); font-weight: 600;
+}
+.hero-grid {
+  display: grid; gap: 36px; align-items: center;
+  grid-template-columns: 1.1fr 1fr;
+}
+.hero-art img { width: 100%; height: auto; display: block; }
+.card .icon {
+  width: 44px; height: 44px; border-radius: 12px;
+  display: grid; place-items: center; margin-bottom: 12px;
+  background: var(--accent-soft); font-size: 1.35rem;
 }
 .lead { font-size: 1.2rem; color: var(--muted); max-width: 640px; }
 .cta-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
@@ -76,7 +87,7 @@ nav a:hover { color: var(--accent); }
   text-decoration: none; font-weight: 600;
 }
 .btn.primary { background: var(--accent); color: #fff; }
-.btn.primary:hover { background: #255a4f; }
+.btn.primary:hover { background: var(--accent-dark); }
 .btn.ghost { border: 1.5px solid var(--accent); color: var(--accent); }
 
 /* Sections */
@@ -138,9 +149,14 @@ details p { margin: 10px 0 0; color: var(--muted); }
 
 /* Footer */
 .site-footer {
-  padding: 40px 0; background: #26302d; color: #d9e2df;
+  padding: 40px 0; background: #1f3b2a; color: #dcebe0;
 }
-.site-footer .small { color: #a9b6b2; }
+.site-footer .small { color: #a8c4b0; }
+
+@media (max-width: 800px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-art { max-width: 420px; margin: 0 auto; }
+}
 
 @media (max-width: 600px) {
   nav { gap: 12px; }
